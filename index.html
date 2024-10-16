@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>NOAH CODING</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Authentication</a></li>
+            <li><a href="#">Layouts</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Menu Level</a></li>
+        </ul>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="main-content">
+        <!-- Header -->
+        <header>
+            <input type="text" placeholder="Search">
+            <div class="header-right">
+                <button class="notif-icon">🔔</button>
+                <div class="profile-pic"></div>
+            </div>
+        </header>
+
+        <!-- Section Cards -->
+        <div class="section">
+            <h2>Projects</h2>
+            <button class="btn-new-project">Create New Project</button>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Projects</h3>
+                <p class="number">14</p>
+                <p>2 Completed</p>
+            </div>
+            <div class="card">
+                <h3>Active Task</h3>
+                <p class="number">12</p>
+                <p>12 Completed</p>
+            </div>
+            <div class="card">
+                <h3>Teams</h3>
+                <p class="number">1</p>
+                <p>1 Completed</p>
+            </div>
+            <div class="card">
+                <h3>Productivity</h3>
+                <p class="number">76%</p>
+                <p>10% Completed</p>
+            </div>
+        </div>
+
+        <!-- Active Projects Table -->
+        <div class="table">
+            <h2>Active Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Hours</th>
+                        <th>Priority</th>
+                        <th>Members</th>
+                        <th>Progress</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portofolio</td>
+                        <td>34</td>
+                        <td><span class="priority medium">Medium</span></td>
+                        <td>+5 Members</td>
+                        <td>52%</td>
+                    </tr>
+                    <tr>
+                        <td>Online Shop</td>
+                        <td>47</td>
+                        <td><span class="priority high">High</span></td>
+                        <td>+8 Members</td>
+                        <td>95%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
